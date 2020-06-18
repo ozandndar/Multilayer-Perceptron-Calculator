@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.single-input {
+  width: 100px;
+  height: 100px;
+  background: indianred;
+  color : white;
+  border-radius: 50px;
+  text-align : center;
+  padding-top : 30px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom : 80px;
+  position: relative;
+}
+
+.layers {
+  display : flex;
+  flex-direction: column;
+  flex : 1;
+  justify-content: center;
+}
+
+.single-layer {
+  width: 100px;
+  height: 100px;
+  background: indianred;
+  color : white;
+  border-radius: 50px;
+  text-align : center;
+  padding-top : 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom : 30px;
+  position: relative;
+}
+
+.output {
+  width: 100px;
+  height: 100px;
+  background: indianred;
+  color : white;
+  border-radius: 50px;
+  text-align : center;
+  padding-top : 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top : -30px;
+}
+
+.weight-inputs {
+  position: absolute;
+  right: -210px;
+  top : 0;
+  z-index: 99999;
+}
+
+.weight-inputs input {
+  margin-bottom : 10px
+}
+
+.layers .weight-inputs {
+  top : 25px;
+}
+
+.active {
+  background: blueviolet !important;
+}
